@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+html, body {
+  height:90%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: 10px; 
+}
+.page-wrap:after {
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 70px; 
+}
+.site-footer {
+  background: rgb(248, 248, 248);
+  text-align: center;
+  padding-top: 2%;
+}

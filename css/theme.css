@@ -1,0 +1,73 @@
+/**
+ * parallax.css
+ * @Author Original @msurguy -> http://bootsnipp.com/snippets/featured/parallax-login-form
+ * @Reworked By @kaptenn_com 
+ * @package PARALLAX LOGIN.
+ */
+
+    
+    body {
+        background-color: #444;
+        background: url("http://wallpapercave.com/wp/GbwKH1d.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 200%;
+    }
+
+    .form-signin{
+        margin-bottom: 5px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    
+    .form-signin .form-control {
+        position: relative;
+        font-size: 16px;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .vertical-offset-100 {
+        padding-top: 50px;
+    }
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    }
+    .panel {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+
+/*custom panel settings*/
+    #logo{
+        width: 40%;
+        border: 3px solid #FFF;
+        border-radius: 50%;
+        background-color: #FFF;
+    }
+
+    label{
+        margin-top:5%; 
+    }
+
+    #submit{
+        text-align: center; 
+    }
+
+    #heading{
+        /*background-image: url("https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/6Minimal/MoonShine.png");*/
+        background-image: url("/img/city2.png");
+        background-size: 110%;
+        background-position: 0px -20px;
+        background-repeat: no-repeat;
+    }

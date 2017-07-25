@@ -1,0 +1,125 @@
+<!-- 
+ * parallax_login.html
+ * @Author original @msurguy (tw) -> http://bootsnipp.com/snippets/featured/parallax-login-form
+ * @Tested on FF && CH
+ * @Reworked by @kaptenn_com (tw)
+ * @package PARALLAX LOGIN.
+-->
+
+{% include header.html %}
+
+        <div class="page-wrap">
+            
+            <div class="container">
+                <div class="row vertical-offset-100">
+                    <div class="col-md-4 col-md-offset-4">
+                        <div class="panel panel-default">
+                            <div id="heading" class="panel-heading">                                
+                                <div class="row-fluid user-row">
+                                    <img id="logo" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png" class="img-responsive" alt="Conxole Admin"/>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <form>
+                                    <!-- name -->
+                                  <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                                    <small class="form-text text-muted">This field is NOT required and can be left blank</small>
+                                  </div>
+
+                                  <!-- postition -->
+                                  <div class="form-group">
+                                    <label>Position</label>
+                                    <input type="text" class="form-control" placeholder="What is your position at Awesome Inc?" name="position">
+                                  </div>
+
+                                  <hr>
+
+                                  <!-- year of experience -->
+                                  <div class="form-group">  
+
+                                  <label>Years Of Experience Using Git</label>
+                                    
+                                    <div>
+                                        <input type="radio" name="years" value="less than 1 year">
+                                        Less than 1 year
+                                        
+                                    </div>
+                                    
+
+                                    <div>
+                                        <input type="radio" name="years" value="1 to 3 years">
+                                        1 to 3 years
+                                        
+                                    </div>
+                                   
+
+                                    <div>
+                                        <input type="radio" name="years" value="3+ years">
+                                        3+ years
+                                        
+                                    </div>
+
+                                    <hr>
+
+                                    <!-- fimilarity with awesome inc protocol -->
+                                    <div class="form-group">
+                                        <label>How familiar would you say you were with Awesome Inc’s GitHub protocol?</label>
+
+                                        <div>
+                                            <input type="radio" name="familiarity" value="Not Very"> Not Very
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="familiarity" value="Comfortable with some of it"> Comfortable with some of it
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="familiarity" value="Familiar with most or all of it"> Familiar with most or all of it
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Have you ever created your own branch while working within any Awesome Inc related repositories?</label>
+
+                                        <div>
+                                            <input type="radio" name="familiarity" value="Not Very"> Not Very
+                                        </div>
+                                    </div>
+
+                                    <div id="submit">
+                                        <button class="btn btn-primary">Submit!</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- pop up window -->
+              
+                    <div id="panel">
+                        <div id="helpPanel" class="panel panel-default">
+                            <div id="panelHeading" class="panel-heading">
+                                <h4>About</h4>
+                            </div>
+                            <div id="panelBody" class="panel-body">
+                                <p>The purpose of this form is to gather information about having Git as our primary version control.</p>
+
+                                <p>While your answers will be recorded, your name CAN remain anonymous. To do so, simply leave the name field blank as it says above.</p>
+
+                                <p>Thanks to everyone who helps me out! :D<p>
+
+                            </div>
+                        </div>
+                    </div>
+           
+        </div> <!--end of page wrap-->
+
+    
