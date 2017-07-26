@@ -1,0 +1,11 @@
+#thanks_panel{
+	margin-top: 6%;
+}
+
+#thanks_body{
+	height: 500px;
+
+	background-image: url("/img/thanks.jpg");
+	background-position: center;
+	background-size: 100%;
+}

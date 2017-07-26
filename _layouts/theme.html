@@ -20,7 +20,7 @@
                                 </div>
                             </div>
                             <div class="panel-body">
-                                <form>
+                                <form id="form">
                                     <!-- name -->
                                   <div class="form-group">
                                     <label>Name</label>
@@ -36,7 +36,7 @@
 
                                   <hr>
 
-                                  <!-- year of experience -->
+                                  <!-- years -->
                                   <div class="form-group">  
 
                                   <label>Years Of Experience Using Git</label>
@@ -63,7 +63,7 @@
 
                                     <hr>
 
-                                    <!-- fimilarity with awesome inc protocol -->
+                                    <!-- familiarity -->
                                     <div class="form-group">
                                         <label>How familiar would you say you were with Awesome Inc’s GitHub protocol?</label>
 
@@ -82,16 +82,76 @@
 
                                     </div>
 
+
+                                    <!-- branch -->
                                     <div class="form-group">
                                         <label>Have you ever created your own branch while working within any Awesome Inc related repositories?</label>
 
                                         <div>
-                                            <input type="radio" name="familiarity" value="Not Very"> Not Very
+                                            <input id="branch" type="radio" name="branch" value="no"> No
+                                            <input id="branch" type="radio" name="branch" value="yes"> Yes
                                         </div>
                                     </div>
 
+
+                                    <!-- location -->
+                                    <div class="form-group">
+                                        <label>Which of the following locations do you usually push to gh-pages or another repository from?</label>
+
+                                        <div>
+                                            <input type="radio" name="location" value="local"> Local Branch From Outside The Repo
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="location" value="online"> A Pre-existing Branch From Within The Repo
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="location" value="no idea"> I Am Not Sure
+                                        </div>
+                                    </div>
+
+
+                                    <!-- fear -->
+                                    <div class="form-group">
+                                        <label>Have you ever felt nervous or hesitant about pushing your code to gh-pages because of a fear of causing errors to a live site?</label>
+
+                                        <div>
+                                            <input type="radio" name="fear" value="no"> No
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="fear" value="yes"> Yes
+                                        </div>
+
+                                        <div>
+                                            <input type="radio" name="fear" value="sometimes, or I have before at least once"> Sometimes, or I have before at least once
+                                        </div>
+                                    </div>
+
+
+                                    <!-- recommend -->
+                                    <div class="form-group">
+                                        <label>Would you recommend an alternative to using Git as Awesome Inc’s primary version control?</label>
+
+                                        <div>
+                                            <input id="branch" type="radio" name="recommend" value="no"> No
+                                            <input id="branch" type="radio" name="recommend" value="yes"> Yes
+                                        </div>
+                                    </div>
+
+                                    <!-- alternative -->
+                                    <div class="form-group">
+                                    <label>If so, what would you recommend?</label>
+                                    <input type="text" class="form-control" placeholder="What alternatives would you recommend?" name="alternative">
+                                    <small class="form-text text-muted">If you did not recommend an alternative, then leave this field blank</small>
+                                  </div>
+
+
+
+                                    <!-- submit -->
                                     <div id="submit">
-                                        <button class="btn btn-primary">Submit!</button>
+                                        <button class="btn btn-primary" onclick="setTimeout('history.go(0);',1000);" value="Refresh">Submit!</button>
                                     </div>
 
                                 </form>
@@ -118,8 +178,8 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> 
            
         </div> <!--end of page wrap-->
 
-    
+{% include footer.html %}

@@ -10,7 +10,7 @@
         background-color: #444;
         background: url("http://wallpapercave.com/wp/GbwKH1d.jpg");
         background-repeat: no-repeat;
-        background-size: 100% 200%;
+        background-size: 100% 300%;
     }
 
     .form-signin{
@@ -71,3 +71,10 @@
         background-position: 0px -20px;
         background-repeat: no-repeat;
     }
+
+    #branch{
+        margin-left: 25%;
+    }
+
+
+
