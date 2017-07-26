@@ -17,7 +17,7 @@ title: Form
 
 description: # this means to ignore newlines until "baseurl:"
   A form I made to ask some employees about the company GitHub protocol.
-baseurl: "/form" # the subpath of your site, e.g. /blog
+baseurl: "/Form" # the subpath of your site, e.g. /blog
 url: "https://mlan225.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
