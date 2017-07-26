@@ -8,7 +8,7 @@
     
     body {
         background-color: #444;
-        background: url("/form/img/blue.jpg");
+        background: url("/Form/img/blue.jpg");
         background-repeat: no-repeat;
         background-size: 100% 300%;
     }
@@ -66,7 +66,7 @@
 
     #heading{
         /*background-image: url("https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/6Minimal/MoonShine.png");*/
-        background-image: url("/form/img/city2.png");
+        background-image: url("/Form/img/city2.png");
         background-size: 110%;
         background-position: 0px -20px;
         background-repeat: no-repeat;
