@@ -56,6 +56,9 @@ $("#form").submit(function(event){
 
     // Prevent default posting of form
     event.preventDefault();
+
+
+    alert("Thank you, you're awesome! Your form has been submitted and you may now close this window :)");
 });
 
 
